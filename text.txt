@@ -1,0 +1,23 @@
+vue create project_name: tạo 1 file vue mới 
+vue install: là 1 đối tượng vue
+lifecycle: vòng đời 1 vue. Khi click vào 1 trang khác và thoát ra trang khác thì khi đấy là vào 1 vòng đời vue.
+    các thẻ là elements note, attribute note: là các thành phần thuộc tính trong thẻ
+    v-bind : dynamic attribute làm attribute đấy lấy 1 value làm 1 biến
+on-input: viết đến đâu thì gán đến đấy
+on-change: xong rồi mới gán 
+data: khai báo các biến component. Tạo các giá trị ban đầu trong component và dùng các biến trong đata
+methods: khai báo hàm và chỉ chạy khi được gọi
+v-on: tạo 1 sự kiện 
+v-if: thêm cho 1 elements 1 điều kiện ẩn hiển. Nếu đk đúng thì sẽ hiện elements còn không thì ẩn ngay lập tực và xóa khỏi DOM luôn
+v-show: khi sai đk thì chỉ hidden nhưng vẫn trong DOM
+v-for: vòng lặp. đặt ở đâu thì câu lệnh đấy là vòng lặp
+v-for(item,index): item: từng thành phần trong mảng đấy
+                    index: vị trí trong mảng
+                    chỉ sử dụng trong 1 khoảng nhất định đã khai báo.
+sự kiện.các modefind = e.prevent default
+v-model: trong này bắt buộc phải là 1 biến không thể là 1 String. và nó có thể thay đổi được
+        - sự kết hợp value evnet input (value và onchange)
+        -modefind:
+            -.number: chỉ cho phép nhập số
+            -.trim: cắt khoảng trắng đầu cuối
+            -.lazy: là on-change 
